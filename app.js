@@ -1,7 +1,7 @@
 function validate(evt) {
     var theEvent = evt || window.event;
   
-    // Handle paste
+   // Handle paste
     if (theEvent.type === 'paste') {
         key = event.clipboardData.getData('text/plain');
     } else {
